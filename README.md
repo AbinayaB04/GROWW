@@ -1,8 +1,8 @@
-# 📈 Smart Market Watchlist (Hackathon MVP)
+# Smart Market Watchlist (Hackathon MVP)
 
 A highly intelligent, anomaly-detecting stock market dashboard built for professional retail traders. Rather than just showing the current price, this application calculates standard deviation across both **price** and **trading volume** to alert users of unusual market activity in real-time.
 
-## ✨ Features
+## Features
 
 - **Price Anomaly Detection:** Calculates the 30-day standard deviation ($\sigma$) of the closing price. If the price moves $>2\sigma$, it visually triggers an 🔴 **ANOMALY** alert.
 - **Volume Spike Detection:** Institutional trading is often hidden in volume. The app monitors for abnormal trading volume spikes ($>2\sigma$) and flags them with a 🌊 **SPIKE** badge.
@@ -10,7 +10,7 @@ A highly intelligent, anomaly-detecting stock market dashboard built for profess
 - **Sparkline Trend Visuals:** Instant 30-day trend lines rendered directly in the data table for quick technical context.
 - **Cloud State Persistence:** Powered by Supabase (PostgreSQL). Your watchlist state and historical price calculations are saved persistently in the cloud.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/) (Python)
 - **Backend Logic:** Python (NumPy for Statistical Math)
@@ -54,5 +54,5 @@ A highly intelligent, anomaly-detecting stock market dashboard built for profess
    streamlit run main.py
    ```
 
-## 🧠 Why we built it this way (Pitch)
+## Why we built it this way (Pitch)
 Traditional watchlists are incredibly noisy and require the user to guess what is important. By applying a mathematical anomaly detection engine (Standard Deviation) to both Price and Volume, this app shifts the paradigm from *passive tracking* to *active alerting*, enabling traders to react to structural market changes immediately.
