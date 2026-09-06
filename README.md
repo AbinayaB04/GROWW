@@ -4,8 +4,8 @@ A highly intelligent, anomaly-detecting stock market dashboard built for profess
 
 ## Features
 
-- **Price Anomaly Detection:** Calculates the 30-day standard deviation ($\sigma$) of the closing price. If the price moves $>2\sigma$, it visually triggers an 🔴 **ANOMALY** alert.
-- **Volume Spike Detection:** Institutional trading is often hidden in volume. The app monitors for abnormal trading volume spikes ($>2\sigma$) and flags them with a 🌊 **SPIKE** badge.
+- **Price Anomaly Detection:** Calculates the 30-day standard deviation ($\sigma$) of the closing price. If the price moves $>2\sigma$, it visually triggers an **ANOMALY** alert.
+- **Volume Spike Detection:** Institutional trading is often hidden in volume. The app monitors for abnormal trading volume spikes ($>2\sigma$) and flags them with a **SPIKE** badge.
 - **Automated Contextual News:** If an anomaly is detected, the app automatically fetches the top breaking news stories for that ticker to explain *why* it moved.
 - **Sparkline Trend Visuals:** Instant 30-day trend lines rendered directly in the data table for quick technical context.
 - **Cloud State Persistence:** Powered by Supabase (PostgreSQL). Your watchlist state and historical price calculations are saved persistently in the cloud.
