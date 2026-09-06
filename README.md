@@ -17,7 +17,7 @@ A highly intelligent, anomaly-detecting stock market dashboard built for profess
 - **Database:** [Supabase](https://supabase.com/) (Headless PostgreSQL)
 - **Data Ingestion:** `yfinance` (Bypasses traditional rate-limited APIs by intercepting live Yahoo Finance JSON endpoints).
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository:**
    ```bash
